@@ -1,0 +1,168 @@
+
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/background-chat.jpg);
+    background-size: cover;
+}
+
+/* ************************ NAV ************************ */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+
+    
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+}
+
+header ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+.logo {
+    
+}
+
+
+.title1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(196, 101, 63);
+    padding: 10px;
+}
+
+.title2 {
+    color: beige;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.trait {
+   
+}
+
+#presentation {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.livre {
+    color: bisque;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    color: bisque;
+    font-size: 1em;
+}
+
+@media screen and 
+
+/* ************************ CONTACT ************************ */
+
+footer {
+    color: #fffae1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+#contact {
+    padding: 10px;
+}
+
+#icons a {
+    display: inline-block;
+    word-spacing: 10px;
+    text-align: left;
+    font-size: 25px;
+    margin: 30px;
+    padding: 20px;
+    color: #fffae1;
+    
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button {
+    border : none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 5px 0px;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: #fffae1;
+}
+
+button:hover {
+    background-color: #e55039;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
