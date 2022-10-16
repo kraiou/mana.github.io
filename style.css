@@ -11,8 +11,6 @@ body {
     background-size: cover;
 }
 
-/* ************************ NAV ************************ */
-
 nav {
     display: flex;
     justify-content: center;
@@ -99,10 +97,6 @@ p {
     font-size: 1em;
     padding: 20px;
 }
-
-
-
-/* ************************ CONTACT ************************ */
 
 footer {
     color: #fffae1;
